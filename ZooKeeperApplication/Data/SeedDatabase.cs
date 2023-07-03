@@ -8,6 +8,7 @@ namespace ZooKeeperApplication.Data
         {
             context.Database.EnsureCreated();
 
+
             if (context.Animals.Any())
             {
                 return;
